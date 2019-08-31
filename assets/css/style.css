@@ -101,6 +101,8 @@ body{
   border: #fff 1px solid;
 }
 
+/* first page end */
+
 /* media */
 
 @media screen and (max-width: 320px){
@@ -139,3 +141,5 @@ body{
     margin: 5px;
   }
 }
+
+/* media end */
