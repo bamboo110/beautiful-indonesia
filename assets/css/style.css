@@ -7,6 +7,7 @@ body{
   width: 100%;
   height: 100%;
   font-family: sans-serif;
+  overflow: auto;
 }
 
 /* first page */
@@ -90,13 +91,18 @@ body{
   margin: 0 20px;
 }
 
+#first-page > .content > .button > a:hover{
+  color: #fff;
+  background-color: #3399ff
+}
+
 #first-page > .content > .button > .lm{
   color: #fff;
   border: #fff 1px solid;
 }
 
 #first-page > .content > .button > .gs{
-  color: #000;
+  color: #999;
   background-color: #fff;
   border: #fff 1px solid;
 }
@@ -114,6 +120,7 @@ body{
   }
   #first-page > header > nav > p{
     margin: 0;
+    font-size: 15px;
   }
 
   #first-page > header > nav > ul{
@@ -122,6 +129,14 @@ body{
     margin: 0;
     padding-top: 20px;
     text-align: center;
+  }
+
+  #first-page > header > nav > ul > li > a{
+    font-size: 15px;
+  }
+
+  #first-page > .content{
+    margin-top: 200px;
   }
 
   #first-page > .content > h1{
