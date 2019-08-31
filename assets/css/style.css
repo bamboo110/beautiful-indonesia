@@ -126,8 +126,7 @@ body{
   #first-page > header > nav > ul{
     display: flex;
     flex-direction: column;
-    margin: 0;
-    padding-top: 20px;
+    margin: 20px 0;
     text-align: center;
   }
 
