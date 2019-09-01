@@ -109,9 +109,103 @@ body{
 
 /* first page end */
 
-/* media */
+/* second page */
+
+#second-page{
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+}
+
+#second-page > .container{
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 400px auto;
+}
+
+#second-page > .container > img{
+  width: 100%;
+  max-width: 500px;
+  margin: 0 50px;
+}
+
+#second-page > .container > .content{
+  width: 100%;
+  max-width: 500px;
+  margin: 0 50px;
+}
+
+#second-page > .container > .content > h1{
+ margin-bottom: 20px;
+ font-size: 40px;
+}
+
+#second-page > .container > .content > p{
+  margin-bottom: 20px;
+  color: #999;
+
+}
+
+#second-page > .container > .content > ul{
+  max-width: 500px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr)
+}
+
+#second-page > .container > .content > ul > li{
+  display: block;
+  text-align: center;
+}
+
+#second-page > .container > .content > ul > li > a{
+  display: block;
+  text-decoration: none;
+  margin: 10px 10px 10px 0;
+  padding: 5px 10px;
+  color: #999;
+  border: 1px #999 solid;
+  border-radius: 5px;
+}
+
+#second-page > .container > .content > ul > li > a:hover{
+  color: #fff;
+  background-color: #3399ff;
+}
+
+/* second page end */
+
+/* media 768px */
+
+@media screen and (max-width: 768px){
+  /* media second page */
+
+  #second-page > .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  #second-page > .container > .content{
+    margin-top: 20px;
+  }
+
+  #second-page > .container > .content > ul{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  }
+
+  /* media second page end */
+}
+
+/* media 320px */
 
 @media screen and (max-width: 320px){
+  /* media first page */
   #first-page > header > nav{
     width: 100%;
     display: flex;
@@ -154,6 +248,33 @@ body{
   #first-page > .content > .button > a{
     margin: 5px;
   }
+  /* media first page end */
+
+  /* media second page */
+
+  #second-page > .container{
+    margin: 300px auto;
+  }
+
+  #second-page > .container > .content{
+    width: 100%;
+    max-width: 300px;
+  }
+
+  #second-page > .container > .content > h1{
+    font-size: 30px;
+  }
+
+  #second-page > .container > .content > p{
+    font-size: 12px;
+  }
+
+  #second-page > .container > .content > ul > li > a{
+    font-size: 15px;
+    padding: 2px 5px;
+  }
+
+  /* media second page end */
 }
 
-/* media end */
+/* media 320px end */
