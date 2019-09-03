@@ -461,7 +461,7 @@ body{
 
   #first-page > .content > .button{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
   }
 
   #first-page > .content > .button > a{
