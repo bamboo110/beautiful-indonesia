@@ -201,12 +201,12 @@ body{
 #third-page > .container > .content{
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(4,1fr)
+  grid-template-columns: repeat(auto-fit, minmax(1em, 1fr));
+  margin-left: 
 }
 
 #third-page > .container > .content > .box{
-  width: 300px;
-  height: 200px;
+  width: 250px;
   margin: 200px auto 0;
   background-position: center;
   background-size: cover;
@@ -303,9 +303,30 @@ body{
 
 /* fourth page end */
 
+/* max */
+
 /* media 1024px */
 
 @media screen and (max-width: 1024px){
+
+  /* media second page */
+
+  #second-page > .container > img{
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  #second-page > .container > .content{
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  /* media second page end */
+  
+  /* media third page */
+
   #third-page > .container > .content{
     display: grid;
     grid-template-columns: repeat(3,1fr)
@@ -314,6 +335,30 @@ body{
   #third-page > .container > .content > .box{
     margin: 100px auto 0;
   }
+
+  /* media third page end */
+
+  /* media fourth page */
+
+  #fourth-page > .container > .content > .details{
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  #fourth-page > .container > .content > .details > h2{
+    font-size: 30px;
+  }
+  
+  #fourth-page > .container > .content > .details > p{
+    margin-top: 30px;
+    font-size: 16px;
+  }
+
+  #fourth-page > .container > .content > img{
+    max-width: 400px;
+    margin: 0 auto;
+
+  /* media fourth page end */
 }
 
 /* media 1024px end */
@@ -380,7 +425,7 @@ body{
 
 /* media 320px */
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 580px){
   /* media first page */
   #first-page > header > nav{
     width: 100%;
@@ -504,3 +549,5 @@ body{
 }
 
 /* media 320px end */
+
+/* max */
