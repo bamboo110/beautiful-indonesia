@@ -1,7 +1,7 @@
 <h1 align='center'>Beautiful Indonesia</h1>
 
 <p align='center'>
-    <img width="400" src='https://image.freepik.com/free-vector/amazing-indonesia-culture-garuda-silhouete_3264-127.jpg' />
+    <img width="400" src='—Pngtree—indonesia independence day flag badge_3635529 (1).png' />
 </p>
 
 <p>This project shows a little beauty about Indonesia that varies from the natural beauty and various ethnic groups and many other beauties.</p>
