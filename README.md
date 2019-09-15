@@ -20,10 +20,8 @@
 
 ## Screenshot from the project
 <p align='center'>
-  <span>
       <image width="300" src="assets/img/indonesia-1.PNG" />
       <image width="300" src="assets/img/indonesia-2.PNG" />
       <image width="300" src="assets/img/indonesia-3.PNG" />
       <image width="300" src="assets/img/indonesia-4.PNG" />
-  </span>
 </p>
