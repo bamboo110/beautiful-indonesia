@@ -22,13 +22,13 @@
 <p align='center'>
   <span>
       <image width="200" src="assets/img/indonesia-1.PNG" />
-      <image width="200" src="indonesia-2.PNG" />
+      <image width="200" src="assets/img/indonesia-2.PNG" />
   </span>
 </p>
 
 <p align='center'>
   <span>
-      <image width="200" src="indonesia-3.PNG" />
-      <image width="200" src="indonesia-4.PNG" />
+      <image width="200" src="assets/img/indonesia-3.PNG" />
+      <image width="200" src="assets/img/indonesia-4.PNG" />
   </span>
 </p>
