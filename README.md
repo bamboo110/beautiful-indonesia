@@ -10,4 +10,4 @@
 [![Css 3](https://img.shields.io/badge/Css-3-orange)](http://www.css3.info/)
  
 ## How to install
-1. Download this project or you can clone ''' git clone https://github.com/bamboo110/new-indo.git '''
+1. Download this project or you can clone ``` git clone https://github.com/bamboo110/new-indo.git ```
