@@ -15,3 +15,13 @@
  
 ## How to install
 1. Download this project or you can clone ``` git clone https://github.com/bamboo110/new-indo.git ```
+2. Open this folder
+3. open index.html on your browser
+
+## Screenshot from the project
+<p align='center'>
+  <span>
+      <image width="200" src="" />
+      <image width="200" src="" />
+  </span>
+</p>
