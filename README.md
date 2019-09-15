@@ -21,7 +21,7 @@
 ## Screenshot from the project
 <p align='center'>
   <span>
-      <image width="200" src="indonesia-1.PNG" />
+      <image width="200" src="assets/img/indonesia-1.PNG" />
       <image width="200" src="indonesia-2.PNG" />
   </span>
 </p>
