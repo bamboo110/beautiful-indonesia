@@ -202,7 +202,6 @@ body{
   width: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(1em, 1fr));
-  margin-left: 
 }
 
 #third-page > .container > .content > .box{
